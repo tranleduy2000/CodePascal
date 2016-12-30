@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="NKABD.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="6"/>
+        <CursorPos X="13" Y="19"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="NKABD.lpr"/>
+        <Caret Column="4"/>
+      </Position1>
+      <Position2>
+        <Filename Value="NKABD.lpr"/>
+        <Caret Line="20" Column="8"/>
+      </Position2>
+      <Position3>
+        <Filename Value="NKABD.lpr"/>
+        <Caret Line="27" Column="67" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="NKABD.lpr"/>
+        <Caret Line="53" Column="11" TopLine="35"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

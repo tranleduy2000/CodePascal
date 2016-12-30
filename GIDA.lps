@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="GIDA.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="90"/>
+        <CursorPos X="8" Y="107"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="77" Column="61" TopLine="68"/>
+      </Position1>
+      <Position2>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="81" Column="18" TopLine="68"/>
+      </Position2>
+      <Position3>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="94" Column="14" TopLine="75"/>
+      </Position3>
+      <Position4>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="89" Column="13" TopLine="75"/>
+      </Position4>
+      <Position5>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="70" Column="34" TopLine="58"/>
+      </Position5>
+      <Position6>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="86" Column="82" TopLine="76"/>
+      </Position6>
+      <Position7>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="108" Column="69" TopLine="94"/>
+      </Position7>
+      <Position8>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="112" Column="18" TopLine="89"/>
+      </Position8>
+      <Position9>
+        <Filename Value="GIDA.lpr"/>
+        <Caret Line="4" Column="30"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

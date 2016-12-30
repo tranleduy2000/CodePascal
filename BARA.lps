@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="BARA.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="14" Y="6"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="3" Column="10"/>
+      </Position1>
+      <Position2>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="5" Column="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="6" Column="82"/>
+      </Position3>
+      <Position4>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="8"/>
+      </Position4>
+      <Position5>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="6"/>
+      </Position5>
+      <Position6>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="9" Column="78"/>
+      </Position6>
+      <Position7>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="13" Column="33"/>
+      </Position7>
+      <Position8>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="7" Column="13"/>
+      </Position8>
+      <Position9>
+        <Filename Value="BARA.lpr"/>
+        <Caret Line="13" Column="78"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="NGTO2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="16"/>
+        <CursorPos X="12" Y="38"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="NGTO2.lpr"/>
+        <Caret Line="29" Column="12" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="NGTO2.lpr"/>
+        <Caret Line="32" Column="10" TopLine="10"/>
+      </Position2>
+      <Position3>
+        <Filename Value="NGTO2.lpr"/>
+        <Caret Line="12" Column="23"/>
+      </Position3>
+      <Position4>
+        <Filename Value="NGTO2.lpr"/>
+        <Caret Column="14"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

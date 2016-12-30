@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="9"/>
+        <CursorPos X="12" Y="26"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="VMMTFIVE.lps"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="project3.lpr"/>
+        <Caret Line="4" Column="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="project3.lpr"/>
+        <Caret Line="3" Column="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="project3.lpr"/>
+        <Caret Line="25" Column="33" TopLine="12"/>
+      </Position3>
+      <Position4>
+        <Filename Value="project3.lpr"/>
+        <Caret Line="4" Column="19"/>
+      </Position4>
+      <Position5>
+        <Filename Value="project3.lpr"/>
+        <Caret Line="32" Column="33" TopLine="17"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

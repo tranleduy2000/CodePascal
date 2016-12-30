@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="FNUM.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="7"/>
+        <CursorPos X="10" Y="26"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="FNUM.lpr"/>
+        <Caret Line="23" Column="12" TopLine="3"/>
+      </Position1>
+      <Position2>
+        <Filename Value="FNUM.lpr"/>
+        <Caret Line="6" Column="18"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

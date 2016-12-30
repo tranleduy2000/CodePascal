@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="PALI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="13"/>
+        <CursorPos X="7" Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="28" Column="11" TopLine="5"/>
+      </Position1>
+      <Position2>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="15" Column="10" TopLine="9"/>
+      </Position2>
+      <Position3>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="28" Column="14" TopLine="8"/>
+      </Position3>
+      <Position4>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="8" Column="14"/>
+      </Position4>
+      <Position5>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="16" Column="10" TopLine="13"/>
+      </Position5>
+      <Position6>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="28" Column="38" TopLine="13"/>
+      </Position6>
+      <Position7>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="36" Column="10" TopLine="13"/>
+      </Position7>
+      <Position8>
+        <Filename Value="PALI.lpr"/>
+        <Caret Line="17" Column="58"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

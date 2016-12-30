@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="DAVA.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
+        <CursorPos X="11" Y="43"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="DAVA.lpr"/>
+        <Caret Line="36" Column="10" TopLine="20"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DAVA.lpr"/>
+        <Caret Line="32" Column="58" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DAVA.lpr"/>
+        <Caret Line="29" Column="12" TopLine="18"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="PLOI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="23"/>
+        <CursorPos X="38" Y="31"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="PLOI.lpr"/>
+        <Caret Line="27" Column="14" TopLine="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="PLOI.lpr"/>
+        <Caret Line="28" Column="64" TopLine="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="PLOI.lpr"/>
+        <Caret Line="37" Column="5" TopLine="19"/>
+      </Position3>
+      <Position4>
+        <Filename Value="PLOI.lpr"/>
+        <Caret Line="26" Column="53" TopLine="16"/>
+      </Position4>
+      <Position5>
+        <Filename Value="PLOI.lpr"/>
+        <Caret Line="34" Column="39" TopLine="20"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="NAUAN.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos X="15" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="3" Column="13"/>
+      </Position1>
+      <Position2>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="5" Column="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="20" Column="56" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="34" Column="19" TopLine="23"/>
+      </Position4>
+      <Position5>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="30" Column="47" TopLine="23"/>
+      </Position5>
+      <Position6>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="35" Column="14" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="25" Column="32" TopLine="10"/>
+      </Position7>
+      <Position8>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="19" Column="26" TopLine="7"/>
+      </Position8>
+      <Position9>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="30" Column="57" TopLine="25"/>
+      </Position9>
+      <Position10>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="17" Column="58" TopLine="11"/>
+      </Position10>
+      <Position11>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="7" Column="17" TopLine="4"/>
+      </Position11>
+      <Position12>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="19" Column="46" TopLine="7"/>
+      </Position12>
+      <Position13>
+        <Filename Value="NAUAN.lpr"/>
+        <Caret Line="42" Column="26" TopLine="27"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

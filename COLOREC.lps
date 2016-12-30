@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="COLOREC.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="40"/>
+        <CursorPos X="69" Y="49"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="COLOREC.lpr"/>
+        <Caret Line="6" Column="35"/>
+      </Position1>
+      <Position2>
+        <Filename Value="COLOREC.lpr"/>
+        <Caret Line="12" Column="13" TopLine="11"/>
+      </Position2>
+      <Position3>
+        <Filename Value="COLOREC.lpr"/>
+        <Caret Line="46" Column="31" TopLine="38"/>
+      </Position3>
+      <Position4>
+        <Filename Value="COLOREC.lpr"/>
+        <Caret Line="49" Column="69" TopLine="40"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

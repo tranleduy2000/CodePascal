@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="PASC.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="39" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="PASC.lpr"/>
+        <Caret Line="10" Column="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="PASC.lpr"/>
+        <Caret Line="19" Column="10"/>
+      </Position2>
+      <Position3>
+        <Filename Value="PASC.lpr"/>
+        <Caret Line="14" Column="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="PASC.lpr"/>
+        <Caret Line="11" Column="15"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

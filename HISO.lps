@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="HISO.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="24"/>
+        <CursorPos X="42" Y="43"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="HISO.lpr"/>
+        <Caret Line="3" Column="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="HISO.lpr"/>
+        <Caret Line="15" Column="24"/>
+      </Position2>
+      <Position3>
+        <Filename Value="HISO.lpr"/>
+        <Caret Line="40" Column="29" TopLine="24"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

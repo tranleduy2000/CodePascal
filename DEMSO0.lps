@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="DEMSO0.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="71" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="DEMSO0.lpr"/>
+        <Caret Line="16" Column="52" TopLine="5"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DEMSO0.lpr"/>
+        <Caret Line="10" Column="29"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
