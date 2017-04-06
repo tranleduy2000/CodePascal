@@ -1,19 +1,13 @@
-var
-	n: longint;
-	nghin, tram, chuc, donvi: byte;
-begin
-	write('Nhap n = ');
-	readln(n);
-	donvi := n mod 10;
-	n := n div 10;
-	chuc := n mod 10;
-	n := n div 10;
-	tram := n mod 10;
-	n := n div 10;
-	nghin := n mod 10;
-	write(nghin, ' nghin '); 
-	write(tram,  ' tram ');
-	write(chuc, ' chuc ');
-	write(donvi, ' don vi');
+uses crt;
+var i,j:char;
+Begin
+	clrscr;
+	i:=readkey;
+	writeln(i);
+	if ord(i)=0 then i:=readkey;
+	j:=readkey;
+	if ord(j)=0 then j:=readkey;
+	writeln(ord(i));
+	writeln(ord(j));
 	readln;
 end.

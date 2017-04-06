@@ -1,95 +1,55 @@
-const maxn = 50000; maxq = 100000; oo = -round(1e9);
-type node = record val, lazy: longint; end;
-	 query = record typ, x, y, v: longint; end;
-	 
-var t: array[1..maxn*4] of node;
-	q: array[1..maxq] of query;
+type node = record laz, val:  longint; end;
+var
+	it: array[1..4*50000] of node;
 	n, m: longint;
 	
-procedure init;
-var i, tmp: longint;
-	f: text;
-begin
-	assign(f, 'file.inp');
-	reset(f);
-	readln(f, n, m);
-	for i := 1 to n do with t[i] do
-	begin
-		val := 0;
-		lazy := 0;
-	end;
-	for i := 1 to m do
-	begin
-		read(f, tmp);
-		q[i].typ := tmp;
-		if tmp = 0 then readln(f, q[i].x, q[i].y, q[i].v)
-		else readln(f, q[i].x, q[i].y);
-	end;
-	close(f);
-end;
-
-procedure down(i: longint);
+procedure donw(id: longint);
 var tmp: longint;
 begin
-	tmp := t[i].lazy;
-	t[i*2].lazy := t[i*2].lazy + tmp;
-	t[i*2].val := t[i*2].val + tmp;
-	
-	t[i*2+1].lazy := t[i*2 +1].lazy + tmp;
-	t[i*2+1].val := t[i*2 +1].val + tmp;
-	
-	t[i].lazy := 0;
+	tmp := it[id].laz;
+	inc(it[id*2].laz, tmp);
+	inc(it[id*2].val, tmp);
+	inc(it[id*2+1].laz, tmp);
+	inc(it[id*1+1].val, tmp);
+	it[id].laz := 0;
 end;
 
-function max(x, y: longint): longint;
+procedure update(k, l, r, i, j, v: longint);
+var tmp: longint;
 begin
-	if x > y then exit(x) else exit(y);
-end;
-
-procedure updateIT(k, l, r, i, j, val: longint);
-var mid: longint;
-begin
-	if (j < l) or (r <i ) then exit;
-	if (i <= l)and (r <= j) then
+	if (r < i) or (l > j) then exit;
+	if l = r then
 	begin
-		t[k].val := t[k].val + val;
-		t[k].lazy := t[k].lazy + val;
+		inc(it[k].val, v);
+		inc(it[k].laz, v);
 		exit;
 	end;
-
+	mid := (l + r) div 2;
 	down(k);
-	
-	mid := (l +r ) div 2;
-	updateIT(k*2, l, mid, i, j, val);
-	updateIT(k*2+1, mid +1,  r, i, j, val);
-	
-	t[k].val := max(t[k*2].val, t[k*2+1].val);
+	update(k*2, l, mid, i, j, v);
+	update(k*2 +1, mid+1, r, i, j, v);
+	it[k] := max(it[k*2], it[k*2+1]);
 end;
 
-function get(k, l, r, i, j: longint): longint;
+function get(k, l, r, i, j: longint);
 var mid: longint;
-begin	
-	if (j < l) or (r < i ) then exit(oo);
-	if (i <= l) and (r <= j) then exit(t[k].val);
+	tmp: longint;
+begin
+	if (r < i) or (l > j) then exit(-1);
+	if (i <= r) and (l <= j) then  exit(it[k].val);
+	mid := (l+r) div 2;
 	down(k);
-	mid := (l +r) div 2;
-	exit(max(get(k*2, l, mid, i, j), get(k*2 + 1, mid + 1, r, i, j) ));
+	tmp := get(k*2, l, mid, i, j);
+	tmp := max(tmp, get(k*2+1, mid+1, r, i, j));
+	exit(tmp);
 end;
 
 procedure process;
-var i: longint;
 begin
-	for i := 1to m do 
-	begin
-		if q[i].typ = 0 then 
-			updateIT(1, 1, n, q[i].x, q[i].y, q[i].v)
-		else 
-			writeln(get(1, 1, n, q[i].x, q[i].y));
-	end;
+	fillchar(it, sizeof(it), 0);
+	
 end;
 
 begin
-	init;
-	fillchar(t, sizeof(t), 0);
 	process;
 end.
