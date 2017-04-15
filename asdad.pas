@@ -1,34 +1,27 @@
-var 
-	f, a: array[0..10000] of longint;
-	n: longint;
-	
-procedure readf;
-var f: text;
-	i: longint;
-begin
-	assign(f, 'file.inp');
-	reset(f);
-	readln(f, n);
-	for i := 1 to n do readln(f, a[i]);
-	close(f);
-end;
 
-function max(x, y: longint): longint;
+var
+  LArray : array[1..6] of Byte = (10, 11, 12, 13, 14, 15);
+  LText: string;
+  I : integer;
 begin
-	if x > y then exit(x) else exit(y);
-end;
+  try
+    SetLength(LText, Length(LArray)*2);
+    BinToHex(@LArray, PChar(LText), SizeOf(LArray));
+    //show the hex string
+    Writeln(LText);
 
-procedure dp;
-var i: longint;
-begin
-	f[0] := 0;
-	f[1] := a[1];
-	for i := 2 to n do
-		f[i] := max(f[i-1], f[i-2] + a[i]);
-	writeln(f[n]);
-end;
+    //fill the array with 0 
+    FillChar(LArray, SizeOf(LArray), #0);
 
-begin
-	readf;
-	dp;
+    //get the values from the hex string
+    HexToBin(PChar(LText), LArray, Length(LArray));
+
+    //show the array values
+    for i := 1 to Length(LArray) do
+      Write(LArray[i]);
+    Readln;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
 end.
