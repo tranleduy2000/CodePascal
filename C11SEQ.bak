@@ -1,0 +1,128 @@
+const maxn  = 300001;
+var
+	sl, sr, a, b, pos, bit: array[0..maxn] of longint;
+	n, l, r: longint;
+	
+procedure readf;
+var
+	f: text;
+	i: longint;
+begin
+	assign(f, 'file.inp');
+	reset(f);
+	readln(f, n, l, r);
+	a[0] := 0;
+	for i := 1 to n do
+	begin
+		read(f, a[i]);
+		a[i] := a[i-1] + a[i];
+	end;
+	close(f);
+end;
+
+procedure swap(var a, b: longint);
+var
+	tmp: longint;
+begin	
+	tmp := a;
+	a := b;
+	b := tmp;
+end;
+
+	
+procedure sort(l, r: longint);
+var
+	k, i, j: longint;
+begin
+	if r <= l then exit;
+	i := l; j := r; 
+	k := a[(l+r) div 2]; 
+	repeat
+		while (a[i] < k) do inc(i);
+		while (a[j] > k) do dec(j);
+		if i <= j then
+		begin
+			swap(a[i], a[j]);
+			swap(pos[i], pos[j]);
+			inc(i); dec(j);
+		end;
+	until i > j;
+	sort(i, r);
+	sort(l, j);
+end;
+
+{
+* (j -> i) L <= s[i] - s[j-1] <= R
+* -> s[i] - R <= s[j-1] -> a3
+* -> s[i] - L >= s[j-1] -> a2
+* }
+procedure zip;
+var
+	i, count, last: longint;
+begin
+	for i := 1 to n do
+	begin
+		a[n + i] := a[i] - L;
+		a[2*n + i] := a[i] - R;
+	end;
+	for i := 1 to 3*n do pos[i] := i;
+	
+	sort(1, 3*n);
+	count := 0;
+	last := high(longint);
+	for i := 1 to 3 * n do
+	begin
+		if last <> a[i] then
+		begin
+			last := a[i];
+			inc(count);
+		end;
+		b[pos[i]] := count;
+	end;
+	
+end;
+
+procedure update(i, v: longint);
+begin
+	
+	while i <= maxn do
+	begin
+		inc(bit[i], v);
+		inc(i, i and -i);
+	end;
+end;
+
+function get(i: longint): longint;
+var
+	res: longint;
+begin
+	res := 0;
+	while i > 0 do
+	begin
+		inc(res, bit[i]);
+		dec(i, i and -i);
+	end;
+	exit(res);
+end;
+
+procedure process;
+var
+	i: longint;
+	res: int64;
+begin
+	res := 0;
+	fillchar(bit, sizeof(bit), 0);
+	update(b[1], 1);
+	for i := 2 to n do
+	begin
+		update(b[i], 1);
+		inc(res, get(b[n+i]) - get(b[2*n+i]) )
+	end;
+	writeln('res = ', res);
+end;
+
+begin
+	readf;
+	zip;
+	process;
+end.

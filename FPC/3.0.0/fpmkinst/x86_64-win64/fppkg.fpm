@@ -1,0 +1,10 @@
+Name=fppkg
+Version=3.0.0
+Checksum=1198551174
+CPU=x86_64
+OS=win64
+SourcePath=E:\pas\fpcbuild-3.0.0\fpcsrc\packages\fppkg\
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1198551144,fcl-xml|1198551147,fcl-process|1198551163,paszlib|1198551143,fpmkunit|1198551173,fcl-net|1198551162,fcl-web|1198551171,httpd22|1198551169
+NeedLibC=N
+FPMakeAddIn=N

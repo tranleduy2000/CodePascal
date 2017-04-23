@@ -1,0 +1,10 @@
+var
+s: string;
+begin
+        s := 'bc';
+        insert('a', s, 1);
+
+        writeln(s, '#3');
+        writeln(#3000);
+        readln;
+end.

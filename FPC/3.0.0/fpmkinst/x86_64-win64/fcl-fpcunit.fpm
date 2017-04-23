@@ -1,0 +1,10 @@
+Name=fcl-fpcunit
+Version=3.0.0
+Checksum=1198551161
+CPU=x86_64
+OS=win64
+SourcePath=E:\pas\fpcbuild-3.0.0\fpcsrc\packages\fcl-fpcunit\
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,paszlib|1198551143,fcl-base|1198551144,fcl-xml|1198551147,libtar|1198551160
+NeedLibC=N
+FPMakeAddIn=N

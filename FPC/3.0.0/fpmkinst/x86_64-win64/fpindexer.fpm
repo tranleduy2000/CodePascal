@@ -1,0 +1,10 @@
+Name=fpindexer
+Version=3.0.0
+Checksum=1198551173
+CPU=x86_64
+OS=win64
+SourcePath=E:\pas\fpcbuild-3.0.0\fpcsrc\packages\fpindexer\
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1198551144,fcl-db|1198551153,chm|1198551148,sqlite|1198551149
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=graph
+Version=3.0.0
+Checksum=1198551176
+CPU=x86_64
+OS=win64
+SourcePath=E:\pas\fpcbuild-3.0.0\fpcsrc\packages\graph\
+FPMakeOptions=-o -Twin64 -o -Px86_64 -o -XPx86_64-win64- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,ptc|1198551176,fcl-base|1198551144,hermes|1198551175,opengl|1198551172
+NeedLibC=N
+FPMakeAddIn=N
